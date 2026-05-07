@@ -45,7 +45,22 @@ body:
   validations:
     required: false
 
-- [ ] 囲いの基本形
-- [ ] 手順
-- [ ] 強み
-- [ ] 弱み
+- type: checkbox
+  id: check1
+  attribute:
+    value: 囲いの基本形
+
+- type: checkbox
+  id: check1
+  attribute:
+    value: 手順
+
+- type: checkbox
+  id: check1
+  attribute:
+    value: 強み
+
+- type: checkbox
+  id: check1
+  attribute:
+    value: 弱み
