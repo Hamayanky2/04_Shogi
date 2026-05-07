@@ -50,8 +50,8 @@ body:
   attributes:
     label: "構成"
     options:
-      - 戦型・戦法
-      - 手順
-      - 強み
-      - 弱み
+      - label: 戦型・戦法
+      - label: 手順
+      - label: 強み
+      - label: 弱み
 
