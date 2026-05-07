@@ -4,7 +4,7 @@ title: "[戦型・戦法名]"
 body:
 - type: markdown
   attributes:
-    value: '戦型や戦法のwiki作成します。
+    value: '戦型や戦法のwiki作成します。'
 
 #- type: input
 #  id: part_no
