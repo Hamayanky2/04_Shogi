@@ -1,1 +1,41 @@
+name: 戦型・戦法
+description: 戦型や戦法のwiki作成用
+title: "[戦型・戦法名]"
+body:
+- type: markdown
+  attributes:
+    value: '戦型や戦法のwiki作成します。
 
+#- type: input
+#  id: part_no
+#  attributes:
+#    label: 部品番号
+#    description: 5桁以内の数値のみ
+#    placeholder: '00000'
+#    value: '00000'
+#  validations:
+#    required: false
+- type: input
+  id: part_name
+  attributes:
+    label: 部品名
+  validations:
+    required: false
+    
+- type: dropdown
+  id: usage_record
+  attributes:
+    label: 使用実績
+    options:
+    - なし
+    - あり
+    default: 0
+  validations:
+    required: false
+    
+- type: textarea
+  id: notes
+  attributes:
+    label: 備考
+  validations:
+    required: false
