@@ -48,4 +48,10 @@ body:
 - type: checkboxes
   id: check1
   attribute:
-    label: 構成
+    label: "構成"
+    options:
+      - 戦型・戦法
+      - 手順
+      - 強み
+      - 弱み
+
