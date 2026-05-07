@@ -27,7 +27,7 @@ body:
   validations:
     required: false
     
-- type: textarea
+- type: markdown
   id: notes
   attributes:
     label: 盤
