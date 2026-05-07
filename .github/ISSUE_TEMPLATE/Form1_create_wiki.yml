@@ -47,7 +47,7 @@ body:
 
 - type: checkboxes
   id: check1
-  attribute:
+  attributes:
     label: "構成"
     options:
       - 戦型・戦法
