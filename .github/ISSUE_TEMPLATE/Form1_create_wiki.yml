@@ -50,9 +50,7 @@ body:
   attribute:
     label: 構成
     options:
-      - label: 新規作成
-        required: false
-      - label: 既存記事の更新
-        required: false
-      - label: 棋譜データあり
-        required: false
+      - 戦型・戦法
+      - 手順
+      - 強み
+      - 弱み
