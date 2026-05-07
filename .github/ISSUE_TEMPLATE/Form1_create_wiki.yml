@@ -26,6 +26,16 @@ body:
     default: 0
   validations:
     required: false
+
+- type: checkboxes
+  id: check1
+  attributes:
+    label: "構成"
+    options:
+      - label: 戦型・戦法
+      - label: 手順
+      - label: 強み
+      - label: 弱み
     
 - type: markdown
   id: notes
@@ -44,14 +54,3 @@ body:
       |　▲香|　▲桂|　▲銀|　▲金|　▲王|　▲金|　▲銀|　▲桂|　▲香|九 　|
   validations:
     required: false
-
-- type: checkboxes
-  id: check1
-  attributes:
-    label: "構成"
-    options:
-      - label: 戦型・戦法
-      - label: 手順
-      - label: 強み
-      - label: 弱み
-
