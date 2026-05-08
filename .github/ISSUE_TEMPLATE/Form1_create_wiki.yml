@@ -6,15 +6,20 @@ body:
   attributes:
     value: '戦型や戦法のwiki作成します。'
 
-- type: input
-  id: part_name
+- type: dropdown
+  id: AtkDef
   attributes:
-    label: 部品名
+    label: 攻守
+    options:
+    - 囲い
+    - 攻め
+    - 業
+    default: 0
   validations:
-    required: false
+    required: true
     
 - type: dropdown
-  id: usage_record
+  id: offence_type
   attributes:
     label: 特定型
     options:
@@ -25,7 +30,7 @@ body:
     - 角交換拒否
     default: 0
   validations:
-    required: false
+    required: true
 
 - type: checkboxes
   id: check1
@@ -36,6 +41,13 @@ body:
       - label: 手順
       - label: 強み
       - label: 弱み
+
+- type: input
+  id: memo
+  attributes:
+    label: メモ
+  validations:
+    required: false
     
 - type: markdown
   id: notes
