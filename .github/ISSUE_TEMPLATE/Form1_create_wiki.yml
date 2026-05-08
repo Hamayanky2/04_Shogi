@@ -18,24 +18,23 @@ body:
   validations:
     required: true
     
-- type: dropdown
-  id: offence_type
+- type: checkboxes
+  id: offence_types
   attributes:
-    label: 特定型
+    label: 活性
     options:
-    - なし
-    - 居飛車
-    - 振り飛車
-    - 角交換
-    - 角交換拒否
-    default: 0
+      - label: なし
+      - label: 居飛車
+      - label: 振り飛車
+      - label: 角交換
+      - label: 角交換拒否
   validations:
     required: true
 
 - type: checkboxes
   id: check1
   attributes:
-    label: "構成"
+    label: 構成
     options:
       - label: 戦型・戦法
       - label: 手順
