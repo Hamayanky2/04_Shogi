@@ -70,4 +70,5 @@ body:
 - type: textarea
   id: ban
   attributes:
+    label: 盤
     value: notes
